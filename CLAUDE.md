@@ -51,6 +51,10 @@ src/
 
 Tests use Vitest + React Testing Library. Test files are colocated with source (`*.test.js`) or in `src/__tests__/`. Mock the data service when testing components; test the data service directly against fixture JSON.
 
+### Code Formatting
+
+Prettier is configured in `.prettierrc` with 2-space indentation. A Claude Code hook in `.claude/settings.json` auto-runs `prettier --write` after every file edit/write. All source files must use 2-space indentation (no tabs).
+
 ### Verification After Script Changes
 
 After completing any script-related request (new feature, bug fix, refactor), always run the following verification sequence before considering the task done:

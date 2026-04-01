@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+/* Answer button animations */
+@keyframes correctFlash {
+  0% {
+    background: #22c55e;
+  }
+  100% {
+    background: #22c55e;
+  }
+}
+
+@keyframes wrongShake {
+  0%,
+  100% {
+    transform: translateX(0);
+    background: #ef4444;
+  }
+  20% {
+    transform: translateX(-6px);
+  }
+  40% {
+    transform: translateX(6px);
+  }
+  60% {
+    transform: translateX(-4px);
+  }
+  80% {
+    transform: translateX(4px);
+  }
+}
+
+.answer-correct {
+  animation: correctFlash 0.5s ease forwards;
+  background: #22c55e !important;
+  color: #fff !important;
+  border-color: #16a34a !important;
+}
+
+.answer-wrong {
+  animation: wrongShake 0.5s ease forwards;
+  background: #ef4444 !important;
+  color: #fff !important;
+  border-color: #dc2626 !important;
+}
