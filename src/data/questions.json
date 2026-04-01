@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q1",
+    "category": "Claude Code",
+    "difficulty": "easy",
+    "prompt": "What command do you use to start Claude Code from the terminal?",
+    "options": ["claude", "claude-code", "cc", "anthropic"],
+    "correctIndex": 0
+  },
+  {
+    "id": "q2",
+    "category": "Claude Code",
+    "difficulty": "easy",
+    "prompt": "Which file in a project provides instructions to Claude Code about how to work with the codebase?",
+    "options": ["README.md", "CLAUDE.md", ".claude/config", "anthropic.json"],
+    "correctIndex": 1
+  },
+  {
+    "id": "q3",
+    "category": "Claude Code",
+    "difficulty": "medium",
+    "prompt": "Where are project-level slash commands stored in Claude Code?",
+    "options": [".claude/settings.json", ".claude/commands/", "src/commands/", ".anthropic/skills/"],
+    "correctIndex": 1
+  },
+  {
+    "id": "q4",
+    "category": "Claude Code",
+    "difficulty": "medium",
+    "prompt": "Which Claude Code hook type fires after a tool call completes?",
+    "options": ["PreToolUse", "PostToolUse", "OnComplete", "AfterTool"],
+    "correctIndex": 1
+  },
+  {
+    "id": "q5",
+    "category": "Claude Code",
+    "difficulty": "hard",
+    "prompt": "What environment variable is injected into PostToolUse hook commands with the path of the file being edited?",
+    "options": [
+      "$CLAUDE_FILE_PATH",
+      "$TOOL_FILE",
+      "$CLAUDE_TOOL_INPUT_FILE_PATH",
+      "$CLAUDE_EDIT_PATH"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q6",
+    "category": "Game Design",
+    "difficulty": "easy",
+    "prompt": "What term describes a reward system where players earn increasing bonuses for correct answers in a row?",
+    "options": ["Combo/Streak", "Power-up", "Checkpoint", "Leaderboard"],
+    "correctIndex": 0
+  },
+  {
+    "id": "q7",
+    "category": "Game Design",
+    "difficulty": "easy",
+    "prompt": "Which UI element shows a player how far through a quiz they are?",
+    "options": ["Timer", "Score badge", "Progress bar", "Streak badge"],
+    "correctIndex": 2
+  },
+  {
+    "id": "q8",
+    "category": "Game Design",
+    "difficulty": "medium",
+    "prompt": "In game design, what is the purpose of a countdown timer on each question?",
+    "options": [
+      "To display the score",
+      "To create urgency and prevent indefinite thinking",
+      "To track total elapsed time",
+      "To limit the number of attempts"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q9",
+    "category": "Game Design",
+    "difficulty": "hard",
+    "prompt": "A player answers 6 questions in a row correctly. With tier1 at 3x=2× and tier2 at 5x=3×, what multiplier applies to question 6?",
+    "options": ["1×", "2×", "3×", "4×"],
+    "correctIndex": 2
+  },
+  {
+    "id": "q10",
+    "category": "General Knowledge",
+    "difficulty": "easy",
+    "prompt": "What does HTML stand for?",
+    "options": [
+      "Hypertext Markup Language",
+      "High-level Text Management Language",
+      "Hypertext Management Logic",
+      "Hybrid Text Markup Layer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q11",
+    "category": "General Knowledge",
+    "difficulty": "easy",
+    "prompt": "Which programming language runs natively in web browsers?",
+    "options": ["Python", "Ruby", "JavaScript", "Go"],
+    "correctIndex": 2
+  },
+  {
+    "id": "q12",
+    "category": "General Knowledge",
+    "difficulty": "medium",
+    "prompt": "What does localStorage store data in the browser as?",
+    "options": ["Binary blobs", "Cookies", "Key-value string pairs", "Encrypted JSON"],
+    "correctIndex": 2
+  },
+  {
+    "id": "q13",
+    "category": "General Knowledge",
+    "difficulty": "medium",
+    "prompt": "Which Web API allows synthesizing audio in the browser without audio files?",
+    "options": ["MediaStream API", "Web Audio API", "SpeechSynthesis API", "AudioElement API"],
+    "correctIndex": 1
+  },
+  {
+    "id": "q14",
+    "category": "General Knowledge",
+    "difficulty": "hard",
+    "prompt": "In React, what hook would you use to run a side effect only once when a component mounts?",
+    "options": [
+      "useState()",
+      "useEffect(() => {}, []) with empty deps array",
+      "useCallback()",
+      "useMemo()"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q15",
+    "category": "Claude Code",
+    "difficulty": "hard",
+    "prompt": "Which subagent type in Claude Code is best suited for quickly exploring a codebase and searching files?",
+    "options": ["general-purpose", "Plan", "Explore", "statusline-setup"],
+    "correctIndex": 2
+  }
+]

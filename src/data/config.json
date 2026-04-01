@@ -1,0 +1,22 @@
+{
+  "difficulties": {
+    "easy": { "label": "Easy", "timePerQuestion": 20 },
+    "medium": { "label": "Medium", "timePerQuestion": 15 },
+    "hard": { "label": "Hard", "timePerQuestion": 10 }
+  },
+  "defaultDifficulty": "medium",
+  "questionsPerGame": 10,
+  "leaderboardSize": 10,
+  "streakBonus": {
+    "tier1": { "minStreak": 3, "multiplier": 2 },
+    "tier2": { "minStreak": 5, "multiplier": 3 }
+  },
+  "pointsPerQuestion": 100,
+  "categories": ["Claude Code", "Game Design", "General Knowledge"],
+  "audio": {
+    "correct": { "frequency": 880, "duration": 0.15 },
+    "wrong": { "frequency": 220, "duration": 0.3 },
+    "tick": { "frequency": 440, "duration": 0.05 },
+    "gameOver": { "frequency": 330, "duration": 0.6 }
+  }
+}
